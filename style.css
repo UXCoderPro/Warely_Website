@@ -7,6 +7,8 @@ body{
     width: 100%;
     height: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 /*Hero-BG Start*/
 .hero{
@@ -32,7 +34,7 @@ body{
     border: 1px solid #374179;
     background: rgba(0, 0, 0, 0.40);
     backdrop-filter: blur(10px);
-    position: fixed;
+    position: absolute;
     left: 510px;
     top: 63px; 
     font-family: "Lora", serif; 
@@ -451,3 +453,209 @@ body{
     width: 599px;
 }
 /*second-hero end */
+/*third-hero start */
+.third-hero{
+    width: 100%;
+    height: 957px;
+    background-color: white;
+}
+.third-hero h2{
+    font-family: "Lora", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #121212;
+    margin-top: 100px;
+    margin-left: 312px;
+}
+.third-hero > .testimonial{
+    display: flex;
+    gap: 72px;
+    width: 1296px;
+    height: 327px;
+    align-items: center;
+    position: relative;
+    left: 312px;
+    top: 140px;
+}
+.testimonial > .test-1-box{
+    display: flex;
+    padding: 27px 34px 14px 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+.testimonial > .test-1-box:hover{
+    scale: 1.1;
+}
+.test-1-box > .test-1-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.test-1-inner > p{
+    color: #121212;
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 316px;
+}
+.test-1-inner .bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 316px;
+    height: 100%;
+}
+.bottom-text > img{
+    width: 58px;
+}
+.bottom-text > h5{
+    color: #121212;
+    text-align: center;
+    font-family: "Lora" serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bottom-text > p{
+    color: rgba(18, 18, 18, 0.80);
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*vvv*/
+.testimonial > .test-2-box{
+    display: flex;
+    padding: 27px 34px 14px 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+.testimonial > .test-2-box:hover{
+    scale: 1.1;
+}
+.test-2-box > .test-2-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.test-2-inner > p{
+    color: #121212;
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 316px;
+}
+.test-2-inner .bottom-text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 316px;
+    height: 100%;
+}
+.bottom-text-2 > img{
+    width: 58px;
+}
+.bottom-text-2 > h5{
+    color: #121212;
+    text-align: center;
+    font-family: "Lora" serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bottom-text-2 > p{
+    color: rgba(18, 18, 18, 0.80);
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*gnbg*/
+.testimonial > .test-3-box{
+    display: flex;
+    padding: 27px 34px 14px 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+.testimonial > .test-3-box:hover{
+    scale: 1.1;
+}
+.test-3-box > .test-3-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.test-3-inner > p{
+    color: #121212;
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 316px;
+}
+.test-3-inner .bottom-text-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 316px;
+    height: 100%;
+}
+.bottom-text-3 > img{
+    width: 58px;
+}
+.bottom-text-3 > h5{
+    color: #121212;
+    text-align: center;
+    font-family: "Lora" serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bottom-text-3 > p{
+    color: rgba(18, 18, 18, 0.80);
+    text-align: center;
+    font-family: "Public Sans" serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
